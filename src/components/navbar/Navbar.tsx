@@ -6,14 +6,14 @@ import { HiOutlineUser } from "react-icons/hi";
 export const Navbar = () => {
   console.log(redditLogo);
   return (
-    <div className="flex flex-row w-full px-4 h-12">
+    <div className="flex flex-row w-full px-4 h-12 mt-0 fixed z-10 top-0 bg-redditBeluga">
       <div className="flex flex-row w-full justify-between">
         <img src={redditLogo} alt="" className="h-full py-2" />
         <div className="w-5/12 flex flex-row justify-between items-center">
-          <div className="flex flex-row flex-1 justify-center items-center bg-redditDolphin h-5/6 rounded-3xl">
+          <div className="flex flex-row flex-1 justify-center items-center bg-redditDolphin bg-opacity-30 h-5/6 rounded-3xl">
             <IoSearchOutline size={22} className="ml-3 mt-[2px]" />
             <input
-              className="w-full bg-redditDolphin placeholder:text-xs placeholder: pl-2 outline-none rounded-3xl font-sans"
+              className="w-full bg-redditDolphin bg-opacity-0 placeholder:text-xs placeholder: pl-2 outline-none rounded-3xl font-sans"
               type="text"
               placeholder="Type here to search"
             />
@@ -21,7 +21,7 @@ export const Navbar = () => {
         </div>
         <div className="flex flex-row justify-end items-center gap-x-4 mr-8">
           <RedditButton
-            twClassName="text-redditSquidInk bg-redditDolphin py-[3px]"
+            twClassName="text-redditSquidInk bg-redditDolphin w-[120px] py-[3px] bg-opacity-40"
             label="Get App"
           />
           <RedditButton
