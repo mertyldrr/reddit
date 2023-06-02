@@ -6,13 +6,9 @@ function App() {
   return (
     <div>
       <Navbar />
-      <div className="grid grid-cols-6 h-screen">
-        <div className="col-span-1">
-          <Sidebar />
-        </div>
-        <div className="col-span-5 bg-fuchsia-700">
-          <Content />
-        </div>
+      <div className="mt-12 flex">
+        <Sidebar />
+        <Content />
       </div>
     </div>
   );

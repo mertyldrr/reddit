@@ -13,6 +13,7 @@ module.exports = {
         redditBeluga: "#FFFFFF",
         redditDolphin: "#D7DFE2",
         redditSeal: "#BBC7CC",
+        redditActionIcon: "#878A8C",
         redditNarwhal: "#7A9299",
         redditSquidInk: "#000000",
       },
