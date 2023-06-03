@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         noto: ["Noto Sans", "sans-serif"],
+        plexSans: ["IBM Plex Sans", "sans-serif"],
       },
       colors: {
         redditOrangeRed: "#FF4500",
