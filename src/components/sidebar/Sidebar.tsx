@@ -1,4 +1,4 @@
-import { RedditButton } from "../button/RedditButton";
+import { RedditButton } from "../ui/button/RedditButton";
 import { SidebarLink } from "./SidebarLink";
 import { BiJoystick, BiCameraMovie } from "react-icons/bi";
 import { MdOutlineSportsVolleyball, MdOutlineMoreHoriz } from "react-icons/md";
@@ -8,14 +8,18 @@ import { HiOutlineArrowTrendingUp } from "react-icons/hi2";
 
 export const Sidebar = () => {
   return (
-    <div className="bg-redditBeluga fixed w-[270px] h-[calc(100vh-48px)] flex flex-col justify-between font-noto px-6 pt-2">
+    <div className="bg-redditBeluga fixed w-[270px] h-[calc(100vh-48px)] flex flex-col justify-between font-noto pt-2">
       <div>
         <div className="flex flex-col w-full">
-          <span className="py-2 text-[10px] text-redditActionIcon">FEEDS</span>
+          <span className="py-2 text-[10px] px-6  text-redditActionIcon">
+            FEEDS
+          </span>
           <SidebarLink label="Gaming" Icon={HiOutlineArrowTrendingUp} />
         </div>
         <div className="flex flex-col w-full">
-          <span className="py-2 text-[10px] text-redditActionIcon">TOPICS</span>
+          <span className="py-2 text-[10px] px-6 text-redditActionIcon">
+            TOPICS
+          </span>
           <SidebarLink label="Gaming" Icon={BiJoystick} />
           <SidebarLink label="Sports" Icon={MdOutlineSportsVolleyball} />
           <SidebarLink label="Business, Economics" Icon={BsGraphUpArrow} />
