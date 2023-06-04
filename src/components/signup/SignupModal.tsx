@@ -1,7 +1,8 @@
-import { RedditIconButton } from "../button/RedditIconButton";
 import { FcGoogle } from "react-icons/fc";
 import { AiFillApple } from "react-icons/ai";
-import { RedditButton } from "../button/RedditButton";
+import { RedditButton } from "../ui/button/RedditButton";
+import { RedditIconButton } from "../ui/button/RedditIconButton";
+
 export const SignupModal = () => {
   return (
     <div className="fixed inset-0 flex justify-center items-center z-50 w-[400px] h-[640px] m-auto bg-redditBeluga">

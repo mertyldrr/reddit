@@ -1,6 +1,6 @@
 import redditLogo from "../../assets/reddit-logo.png";
 import { IoSearchOutline } from "react-icons/io5";
-import { RedditButton } from "../button/RedditButton";
+import { RedditButton } from "../ui/button/RedditButton";
 import { HiOutlineUser } from "react-icons/hi";
 
 export const Navbar = () => {
