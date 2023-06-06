@@ -11,7 +11,7 @@ export const Sidebar = () => {
     <div className="bg-redditBeluga fixed w-[270px] h-[calc(100vh-48px)] flex flex-col justify-between font-noto pt-2">
       <div>
         <div className="flex flex-col w-full">
-          <span className="py-2 text-[10px] px-6  text-redditActionIcon">
+          <span className="py-2 text-[10px] px-7 text-redditActionIcon">
             FEEDS
           </span>
           <SidebarLink label="Gaming" Icon={HiOutlineArrowTrendingUp} />
@@ -29,7 +29,7 @@ export const Sidebar = () => {
           <SidebarLink label="More Topics" Icon={MdOutlineMoreHoriz} />
         </div>
       </div>
-      <div className="flex flex-col pb-10">
+      <div className="flex flex-col pb-10 px-6">
         <div className="border-b-2 mb-4" />
         <div className="pt-1 pb-5 pr-6 text-[14px] leading-[18px]">
           Create an account to follow your favorite communities and start taking

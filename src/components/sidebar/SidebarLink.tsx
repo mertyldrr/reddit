@@ -9,7 +9,7 @@ type Props = {
 export const SidebarLink = ({ Icon, label }: Props) => {
   return (
     <button className="w-full flex flex-row justify-between items-center py-2 hover:bg-gray-200">
-      <div className="w-full flex flex-row justify-between px-4">
+      <div className="w-full flex flex-row justify-between px-6">
         <div className="flex flex-row space-x-3">
           <Icon size={22} />
           <span className="text-[14px]">{label}</span>
